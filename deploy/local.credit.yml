@@ -1,0 +1,3 @@
+services:
+  new-api:
+    image: workbuddy-newapi:credit-20261027

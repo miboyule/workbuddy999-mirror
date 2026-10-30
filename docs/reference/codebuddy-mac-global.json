@@ -1,0 +1,39 @@
+{
+  "images": [],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\nCodeBuddy 配置\n把 API Key 填入 CodeBuddy（IDE / CLI）\n国内版 CodeBuddy（腾讯云）\n国际版 CodeBuddy\n\n配置目录：~/.codebuddy/models.json —— 按你本地安装的版本选择，选错模型不会出现。\n\nmacOS 一键配置\nWindows 一键配置\n手动配置\n🤖 AI 代配置\n1\n运行配置命令（国际版）\n\n打开「终端」应用程序，粘贴并回车：\n\n复制\ncurl -fsSL https://workbuddy.miaotui.cc/setup/channel/codebuddy-mac.sh | bash\n\n该命令会把模型写入 ~/.codebuddy/models.json。\n\n2\n粘贴 API Key\n\n复制下面的 API Key，在运行提示时粘贴：\n\n[ACCOUNT_API_KEY]\n复制\n3\n开始使用\n\n打开 CodeBuddy，新建任务，在模型下拉框选择自定义模型开始对话（配置约 1 秒热重载；若未显示请重启面板）。",
+  "videos": []
+}

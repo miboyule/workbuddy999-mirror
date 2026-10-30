@@ -1,0 +1,39 @@
+{
+  "images": [],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\n常见问题\n积分是怎么消耗的？\n\n调用模型时按输入、输出的token数扣积分，14-18点高峰期按2倍扣除。\n\n支持哪些模型？\n模型\n适合场景\n最大输入\n最大输出\n工具调用\n视觉\n推理\n价格\nauto\n新手首选：不知道选哪个就用它，系统自动挑最合适的模型\n动态\n动态\n✓\n✓\n✓\n—\nglm-5.3\n智谱最强旗舰模型，复杂逻辑、深度推理、能力最强、价格最高，谨慎使用\n1000K\n128K\n✓\n—\n✓\n600积分/M\nglm-5.3-flash\n日常主力：写代码、改 Bug、看图都擅长，能力强、价格适中\n1000K\n128K\n✓\n✓\n✓\n300积分/M\ndeepseek-v4.1-flash\n轻量省钱：日常问答、简单修改，响应快、价格最低\n1000K\n384K\n✓\n✓\n✓\n200积分/M\ndeepseek-v4-pro\n难题攻坚：复杂项目、疑难 Bug、深度推理，能力很强\n1000K\n384K\n✓\n—\n✓\n500积分/M\nminimax-m3\n看图看视频：理解截图、视频和超长文档，价格实惠\n1000K\n131K\n✓\n✓\n✓\n200积分/M\nminimax-m3.1-flash\n轻量任务：日常问答、看图识别，速度优先\n1000K\n131K\n✓\n✓\n✓\n200积分/M\nqwen3.8-flash\n预算有限：日常编程、看图都够用，价格最低一档\n256K\n64K\n✓\n✓\n✓\n200积分/M\nmimo-v2.6-pro\n小米旗舰：深度推理、复杂任务，能力强、价格实惠\n1000K\n128K\n✓\n✓\n✓\n300积分/M\nmimo-v2.6-flash\n极致省钱：日常编程、看图问答，全站价格最低\n1000K\n128K\n✓\n✓\n✓\n100积分/M\nstep-5-preview\n阶跃旗舰：编程与专业知识工作，多模态看图，推理能力强\n1000K\n64K\n✓\n✓\n✓\n500积分/M\n\n执行 macOS / Windows 一键配置命令会自动写入全部模型；✓ 表示支持，— 表示不支持。价格单位为积分/M（每百万 tokens）。\n\n首次运行报错「自定义模型错误」该如何解决？\n新建任务重试。\n如仍不行，切换模型重试。\n如仍不行，重启软件后再试。\n如仍不行，进入该模型的「自定义配置」页面，确认接口地址、API Key、模型名称都填写正确。\n模型配置完了，为什么模型列表仍然没有列出自定义模型？\n\n如果是通过一键配置，要确保终端有输出模型名称才算完成，然后重启 WorkBuddy 软件再次查看；如果一键配置不成功，请改用左侧「WorkBuddy → 手动配置」教程。\n\n模型已经配置完成，仍提示「您账户下可用的积分额度已耗尽，升级会员继续完成任务」？\n\n模型选择错误：大写字母开头的是客户端内置模型，要选择小写字母的自定义模型。例如不能选择 Auto，应该选择 auto。\n\n可以用在哪些客户端？\n\n任何兼容 OpenAI 接口的客户端（WorkBuddy、CodeBuddy、TraeWork、TraeCode、扣子等），填入同样的 接口地址 和 API Key 即可。\n\nWorkBuddy 客户端错误码是什么含义？",
+  "videos": []
+}

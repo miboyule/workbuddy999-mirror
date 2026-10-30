@@ -1,0 +1,138 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-select-model.png",
+      "file": "public/tutorials/workbuddy-select-model.png",
+      "bytes": 322322
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-manual-1-open.png",
+      "file": "public/tutorials/workbuddy-manual-1-open.png",
+      "bytes": 326820
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-manual-2-provider.png",
+      "file": "public/tutorials/workbuddy-manual-2-provider.png",
+      "bytes": 352977
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-manual-3-fill.png",
+      "file": "public/tutorials/workbuddy-manual-3-fill.png",
+      "bytes": 311082
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/coze-1-home.png",
+      "file": "public/tutorials/coze-1-home.png",
+      "bytes": 186482
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/coze-2-model-menu.png",
+      "file": "public/tutorials/coze-2-model-menu.png",
+      "bytes": 264949
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/coze-3-custom-tab.png",
+      "file": "public/tutorials/coze-3-custom-tab.png",
+      "bytes": 238117
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/coze-4-form.png",
+      "file": "public/tutorials/coze-4-form.png",
+      "bytes": 301018
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/coze-5-select.png",
+      "file": "public/tutorials/coze-5-select.png",
+      "bytes": 278899
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/traework-1-open.png",
+      "file": "public/tutorials/traework-1-open.png",
+      "bytes": 423118
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/traework-2-settings.png",
+      "file": "public/tutorials/traework-2-settings.png",
+      "bytes": 461811
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/traework-3-models.png",
+      "file": "public/tutorials/traework-3-models.png",
+      "bytes": 212111
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/traework-4-custom.png",
+      "file": "public/tutorials/traework-4-custom.png",
+      "bytes": 304225
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/traework-5-form.png",
+      "file": "public/tutorials/traework-5-form.png",
+      "bytes": 347434
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/traework-6-automode.png",
+      "file": "public/tutorials/traework-6-automode.png",
+      "bytes": 421294
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://workbuddy.miaotui.cc/setup/traework-7-select.png",
+      "file": "public/tutorials/traework-7-select.png",
+      "bytes": 426695
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://assets.workbuddy.cn/web/workbuddy/a5b2fb510f0e7b156f19d072fae0cd12ae1f2f19/assets/workbuddy-logo-WhgOvEF7.png",
+      "file": "public/brand/workbuddy.png",
+      "bytes": 272739
+    }
+  }
+]

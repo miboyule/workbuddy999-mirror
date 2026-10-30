@@ -1,0 +1,33 @@
+# Model capabilities shared by all setup scripts (WorkBuddy / CodeBuddy)
+# and the portal pages.
+#
+# Format: model-id|images|maxInputTokens|maxOutputTokens
+# - images: true / false (image input support)
+# - Matching is exact and case-insensitive. Models not listed default to
+#   images=false, maxInputTokens=200000, maxOutputTokens=65536.
+# - Keep in sync with web/src/data/models.ts (the FAQ "支持哪些模型" table):
+#   K values there are converted with 1K = 1024 tokens; auto is listed as
+#   "动态" and uses the default limits.
+auto|true|200000|65536
+glm-5.3|false|1048576|131072
+glm-5.3-flash|true|1048576|131072
+# glm-5.2 已从门户前端展示移除（2026-09-13）；2026-10-12 恢复一键配置
+# 写入（前端卡片仍不展示）。
+glm-5.2|false|262144|131072
+# deepseek-v4-flash 已从门户前端展示与一键配置移除（2026-09-11），仍在售、
+# 手动配置可用，故保留此行（手动专属模型）。
+deepseek-v4-flash|false|1048576|393216
+deepseek-v4.1-flash|true|1048576|393216
+deepseek-v4-pro|false|1048576|393216
+minimax-m3|true|1048576|131072
+minimax-m3.1-flash|true|1048576|131072
+# kimi-k3 / kimi-k2.7-code / hy4-preview 已从门户前端展示与一键配置移除
+# （2026-09-13），仍在售、手动配置可用，故保留各行（手动专属模型）。
+kimi-k3|true|262144|65536
+kimi-k2.7-code|false|262144|65536
+hy4-preview|false|983040|65536
+qwen3.8-flash|true|262144|65536
+mimo-v2.6-pro|true|1048576|131072
+mimo-v2.6-flash|true|1048576|131072
+step-5-preview|true|1048576|65536
+# glm-5-turbo 已从门户前端展示与一键配置移除（2026-08-28），仍在售、

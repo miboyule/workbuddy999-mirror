@@ -1,0 +1,9 @@
+<svg width="360" height="82" viewBox="0 0 360 82" xmlns="http://www.w3.org/2000/svg">
+ <rect width="66" height="66" x="3" y="8" rx="18" fill="#12c89a"/>
+ <path d="M19 45c0-13 10-24 23-24 7 0 13 3 17 8-2-1-5-2-8-2-11 0-20 8-20 18 0 3 1 6 2 9-8-2-14-6-14-9Z" fill="#fff" opacity=".98"/>
+ <path d="M31 38c0-7 6-12 13-12 8 0 14 5 14 12s-6 12-14 12c-2 0-4 0-6-1l-6 3 2-6c-2-2-3-5-3-8Z" fill="#12c89a"/>
+ <circle cx="40" cy="38" r="2" fill="#fff"/><circle cx="49" cy="38" r="2" fill="#fff"/>
+ <text x="82" y="37" font-family="Arial, sans-serif" font-size="23" font-weight="800" letter-spacing="1" fill="#111">WORK</text>
+ <text x="82" y="60" font-family="Arial, sans-serif" font-size="23" font-weight="800" letter-spacing="1" fill="#111">BUDDY</text>
+ <text x="206" y="58" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#111">&gt;_</text>
+</svg>

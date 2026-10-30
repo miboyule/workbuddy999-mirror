@@ -1,0 +1,2 @@
+import fs from 'node:fs/promises';
+for(const [url,file] of [['https://workbuddy.miaotui.cc/setup/channel/workbuddy-mac.sh','workbuddy-mac.sh'],['https://workbuddy.miaotui.cc/setup/channel/workbuddy-windows.cmd','workbuddy-windows.cmd'],['https://workbuddy.miaotui.cc/setup/channel/codebuddy-windows.cmd','codebuddy-windows.cmd'],['https://workbuddy.miaotui.cc/setup/model-capabilities.txt','model-capabilities.txt']]){const r=await fetch(url);if(r.ok){await fs.writeFile('docs/reference/'+file,await r.text());console.log(file,r.status)}}

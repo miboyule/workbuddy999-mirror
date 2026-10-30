@@ -1,0 +1,64 @@
+{
+  "images": [
+    {
+      "alt": "扣子主界面",
+      "url": "https://workbuddy.miaotui.cc/setup/coze-1-home.png"
+    },
+    {
+      "alt": "点击 Auto 展开模型菜单，选择添加自定义模型",
+      "url": "https://workbuddy.miaotui.cc/setup/coze-2-model-menu.png"
+    },
+    {
+      "alt": "在添加自定义模型窗口切换到自定义接入标签",
+      "url": "https://workbuddy.miaotui.cc/setup/coze-3-custom-tab.png"
+    },
+    {
+      "alt": "填写展示名称、模型 ID、API URL、API Key 等内容后点击添加",
+      "url": "https://workbuddy.miaotui.cc/setup/coze-4-form.png"
+    },
+    {
+      "alt": "在自定义模型分组中选择 auto",
+      "url": "https://workbuddy.miaotui.cc/setup/coze-5-select.png"
+    }
+  ],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    },
+    {
+      "text": "扣子网页版",
+      "url": "https://www.coze.cn/"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\n扣子配置\n把 API Key 填入扣子（网页版 / 桌面客户端均支持）\n\n⚠️ 添加自定义模型是扣子的付费版功能，免费版无法配置。网页版和桌面客户端都支持，操作完全一致：可直接使用扣子网页版（免安装），也可以下载桌面客户端。\n\n1\n打开扣子\n\n网页版和桌面客户端均可，操作完全一致（以下截图以桌面版为例）。登录扣子，进入主界面。\n\n2\n打开模型菜单，添加自定义模型\n\n点击输入框右下角的「Auto ▾」，在弹出菜单底部点击「＋ 添加自定义模型」。\n\n3\n切换到「自定义接入」标签\n\n在弹出的「添加自定义模型」窗口顶部，切换到「自定义接入」标签（默认打开的「服务商接入」标签不支持自填接口地址，不要在那里配置）。\n\n4\n填写配置并添加\n\n按下面的内容填写（每项旁都有「复制」按钮）：\n\n展示名称\nauto\n复制\n模型 ID\nauto\n复制\n模型协议\nChat API\nAPI URL\nhttps://api.buddy.miaotui.cc/v1\n复制\nAPI Key\n••••••••••••••••\n复制\n输入长度\n262144\n复制\n回复长度\n131072\n复制\n\n「API URL」只需照抄上面的地址即可，扣子会自动在末尾补上 /chat/completions；「高级配置」保持默认，不用展开。\n\n填好后点击弹窗底部的「添加」。想用其他模型：重复步骤 2~4 再添加一个，「模型 ID」换成对应 ID（可用模型见左侧「TraeWork」教程页底部的「可用模型」列表），「模型展示名称」可随意起名。\n\n5\n选择模型开始使用\n\n回到主界面，再次点击输入框右下角的「Auto ▾」，在菜单的「自定义模型」分组中选择刚添加的「auto」，开始对话。",
+  "videos": []
+}

@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "alt": "在对话框右下角选择自定义模型",
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-select-model.png"
+    }
+  ],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\nWorkBuddy 配置\n把 API Key 填入 WorkBuddy 桌面客户端\nmacOS 一键配置\nWindows 一键配置\n手动配置\n🤖 AI 代配置\n1\n运行配置命令\n\n打开「终端」应用程序，粘贴并回车：\n\n复制\ncurl -fsSL https://workbuddy.miaotui.cc/setup/channel/workbuddy-mac.sh | bash\n2\n粘贴 API Key\n\n复制下面的 API Key，在运行提示时粘贴：\n\n[ACCOUNT_API_KEY]\n复制\n3\n开始使用\n\n打开 WorkBuddy 软件，新建任务，在对话框右下角选择自定义模型，开始对话",
+  "videos": []
+}

@@ -1,0 +1,2 @@
+FROM calciumion/new-api:latest
+COPY new-api-credit /new-api

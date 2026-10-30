@@ -1,0 +1,19 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WorkBuddy 积分购买与兑换指南：价格、获取及消耗 | WorkBuddy 积分服务</title>
+<meta name="description" content="WorkBuddy 积分怎么买、价格怎么算、消耗怎么查？了解本站兑换码领取、上游实际积分 1:1 结算、20 积分面值与实付区别，以及积分不足时如何排查。">
+<meta name="robots" content="index,follow"><link rel="canonical" href="https://www.workbuddy999.top/guide/workbuddy-credits/">
+<meta property="og:type" content="article"><meta property="og:locale" content="zh_CN"><meta property="og:title" content="WorkBuddy 积分购买、价格与消耗指南"><meta property="og:description" content="独立积分兑换服务的购买方式、面值和实际消耗规则。"><meta property="og:url" content="https://www.workbuddy999.top/guide/workbuddy-credits/">
+<link rel="icon" href="/brand/workbuddy-icon.png" type="image/png"><link rel="stylesheet" href="/guide/guide.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"WorkBuddy 积分购买与兑换指南：价格、获取及消耗","inLanguage":"zh-CN","mainEntityOfPage":"https://www.workbuddy999.top/guide/workbuddy-credits/","publisher":{"@type":"Organization","name":"WorkBuddy 积分兑换服务","url":"https://www.workbuddy999.top/"}}</script>
+</head><body>
+<header><div class="inner"><a class="brand" href="/"><img src="/brand/workbuddy-icon.png" alt="" width="38" height="38">WorkBuddy 积分服务</a><nav aria-label="主要导航"><a href="/guide/workbuddy-credits/" aria-current="page">积分规则</a><a href="/guide/workbuddy-setup/">模型配置</a><a href="/guide/workbuddy-news/">模型资讯</a><a href="/">会员登录</a></nav></div></header>
+<main><div class="hero"><span class="eyebrow">Credit guide · 积分说明</span><h1>WorkBuddy 积分购买与兑换：<br>实际消耗怎么算？</h1><p>本站提供独立积分兑换与自定义模型接入服务。模型调用按照上游返回的实际积分消耗 1:1 记录，不把模型倍率再次乘到最终扣费里；登录后可核对余额与每次使用记录。</p><div class="actions"><a class="button" href="/">登录会员中心</a><a class="button secondary" href="/guide/workbuddy-setup/">查看配置步骤</a></div></div>
+<div class="layout"><aside class="toc" aria-label="本页目录"><strong>本页内容</strong><a href="#buy">积分如何获取与领取</a><a href="#value">价格与面值</a><a href="#billing">消耗与 token</a><a href="#shortage">积分不够用怎么办</a></aside><article class="article">
+<section id="buy"><h2>WorkBuddy 积分如何购买、获取与领取？</h2><p>在本站使用积分的流程是：获取本站兑换码或在会员中心选择充值套餐，登录后在“充值兑换”页兑换；账户余额可在控制台查看。兑换码首次登录或连接接口时激活，套餐有效期以订单说明为准。本站没有不经验证就能领取的免费积分入口，请勿相信所谓“免费刷积分”或索取 API 密钥的页面。</p><p>需要给 WorkBuddy 官方账号购买内置模型积分或会员权益，请前往 <a href="https://www.workbuddy.cn/pricing" rel="noopener noreferrer">WorkBuddy 官方定价页</a>了解官方渠道。本站的自定义模型积分与官方内置模型额度不是同一个余额。</p></section>
+<section id="value"><h2>WorkBuddy 积分价格与本站面值怎么区分？</h2><p>本站采用 <strong>20 积分面值对应人民币 1 元</strong> 的展示口径。面值不等于商城订单的最终实付价格，更不等于 WorkBuddy 官方直充售价；实际购买价格、套餐及有效期请以结算订单为准。本站是独立服务，并非 WorkBuddy 官方直营充值渠道。</p><div class="note"><p>对比价格时，请同时看兑换后的积分数量、实付金额、有效期和可使用的自定义模型，而不是只看“单次请求多少钱”。</p></div></section>
+<section id="billing"><h2>积分消耗与 token 怎么计算？</h2><p>上游按请求实际用量计费，输入 token、输出 token、缓存和活动可能影响消耗。本站以<strong>上游返回的实际积分 1:1</strong>记录，不再重复乘模型列表展示的倍率。若上游返回 0 积分，该次请求不扣积分；一个任务可能触发多次请求，因此不能按聊天次数推算固定费用。</p><p>例如上游某次请求返回消耗 8.6 积分，本站记录消耗 8.6 积分。该数值只是计算示意，不代表任何模型固定单次价格。登录后在“使用记录”按模型、时间及请求次数核对消耗。</p></section>
+<section id="shortage"><h2>积分不够用或提示余额耗尽怎么办？</h2><p>先确认 WorkBuddy 客户端选择的是通过本站接口添加的<strong>自定义模型</strong>。客户端首字母大写的 Auto 为内置模型时，它的额度与本站积分无关；本站自定义模型 ID 请以会员中心模型列表为准。其次检查本站账户余额和套餐状态，若需补充积分再选择兑换码或充值套餐。</p><p>添加模型的连通性测试也可能产生少量积分用量。想快速配置，请阅读<a href="/guide/workbuddy-setup/">自定义模型接入教程</a>；想了解近期产品变化，可看<a href="/guide/workbuddy-news/">有来源的模型资讯</a>。</p></section>
+<div class="related"><a href="/guide/workbuddy-setup/">下一步：配置自定义模型 →</a><a href="/">登录查看实时余额 →</a></div></article></div></main>
+<footer>WorkBuddy 积分兑换服务 · 独立第三方服务 <a href="/terms">用户协议</a><a href="/privacy">隐私政策</a></footer>
+</body></html>

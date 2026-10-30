@@ -1,0 +1,39 @@
+{
+  "images": [],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\n常见问题\n积分是怎么消耗的？\n\n调用模型时按输入、输出的token数扣积分，14-18点高峰期按2倍扣除。\n\n支持哪些模型？\n首次运行报错「自定义模型错误」该如何解决？\n模型配置完了，为什么模型列表仍然没有列出自定义模型？\n模型已经配置完成，仍提示「您账户下可用的积分额度已耗尽，升级会员继续完成任务」？\n可以用在哪些客户端？\nWorkBuddy 客户端错误码是什么含义？",
+  "videos": []
+}

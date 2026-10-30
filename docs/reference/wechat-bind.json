@@ -1,0 +1,57 @@
+{
+  "images": [
+    {
+      "alt": "打开 WorkBuddy 模型设置",
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-manual-1-open.png"
+    },
+    {
+      "alt": "添加模型并选择自定义提供商",
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-manual-2-provider.png"
+    },
+    {
+      "alt": "填入接口地址、API Key、模型名并保存",
+      "url": "https://workbuddy.miaotui.cc/setup/workbuddy-manual-3-fill.png"
+    }
+  ],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\n\n你好，[ACCESS_CODE]\n\n45 积分\n兑换码\n立即兑换\n配置教程\nmacOS 一键配置\nWindows 一键配置\n手动配置\n1\n打开 WorkBuddy 模型设置\n\n进入「设置 → 模型 / 自定义模型」。\n\n2\n添加模型\n\n点击「添加模型」，提供商选择「其他（自定义 / Custom）」。\n\n3\n填入配置\n接口地址\nhttps://api.buddy.miaotui.cc/v1\n复制\nAPI Key\n[ACCOUNT_API_KEY]\n复制\n模型名\nauto\n?\n\n使用中遇到自定义模型错误，请查看模型信息核对高级配置是否正确\n\n📋 查看模型信息\n收起图文步骤 ▴\n绑定微信\n生成中…\n\n请使用微信扫一扫完成绑定\n\n二维码 5 分钟内有效，扫码后电脑端将自动完成绑定",
+  "videos": [
+    {
+      "poster": "",
+      "src": "https://workbuddy.miaotui.cc/videos/manual.mp4"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "workbuddy-top-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/render-news-page.mjs && vite build && node scripts/check-production-urls.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2",
+    "pg": "^8.23.1"
+  }
+}

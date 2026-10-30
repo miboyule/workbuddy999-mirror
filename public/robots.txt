@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /console
+Disallow: /api/
+Disallow: /v1/
+Disallow: /terms
+Disallow: /privacy
+
+Sitemap: https://www.workbuddy999.top/sitemap.xml

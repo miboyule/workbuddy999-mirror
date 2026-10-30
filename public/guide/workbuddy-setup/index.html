@@ -1,0 +1,19 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WorkBuddy 自定义模型配置教程：API Key、模型 ID 与积分查询 | WorkBuddy 积分服务</title>
+<meta name="description" content="WorkBuddy 自定义模型怎么配置？登录会员中心领取自己的 API Key，按教程选择模型 ID 并重启客户端，核对积分余额与 token 使用记录。">
+<meta name="robots" content="index,follow"><link rel="canonical" href="https://www.workbuddy999.top/guide/workbuddy-setup/">
+<meta property="og:type" content="article"><meta property="og:locale" content="zh_CN"><meta property="og:title" content="WorkBuddy 自定义模型配置指南"><meta property="og:description" content="正确选择自定义模型、配置密钥并核对余额和消耗。"><meta property="og:url" content="https://www.workbuddy999.top/guide/workbuddy-setup/">
+<link rel="icon" href="/brand/workbuddy-icon.png" type="image/png"><link rel="stylesheet" href="/guide/guide.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"WorkBuddy 自定义模型配置教程：API Key、模型 ID 与积分查询","inLanguage":"zh-CN","mainEntityOfPage":"https://www.workbuddy999.top/guide/workbuddy-setup/","publisher":{"@type":"Organization","name":"WorkBuddy 积分兑换服务","url":"https://www.workbuddy999.top/"}}</script>
+</head><body>
+<header><div class="inner"><a class="brand" href="/"><img src="/brand/workbuddy-icon.png" alt="" width="38" height="38">WorkBuddy 积分服务</a><nav aria-label="主要导航"><a href="/guide/workbuddy-credits/">积分规则</a><a href="/guide/workbuddy-setup/" aria-current="page">模型配置</a><a href="/guide/workbuddy-news/">模型资讯</a><a href="/">会员登录</a></nav></div></header>
+<main><div class="hero"><span class="eyebrow">Setup guide · 配置教程</span><h1>WorkBuddy 自定义模型<br>怎么添加与使用？</h1><p>使用本站积分时，请在 WorkBuddy 中选择接入本站接口的自定义模型。准备当前账户的 API Key 和可用模型 ID；客户端内置模型的积分与本站余额分开。</p><div class="actions"><a class="button" href="/">打开会员中心</a><a class="button secondary" href="/guide/workbuddy-credits/">先了解扣费规则</a></div></div>
+<div class="layout"><aside class="toc" aria-label="本页目录"><strong>本页内容</strong><a href="#prepare">配置前准备</a><a href="#install">接入步骤</a><a href="#verify">验证与排错</a><a href="#cost">如何查询消耗</a></aside><article class="article">
+<section id="prepare"><h2>配置前先准备什么？</h2><p>登录会员中心，确认有可用积分；在“API 密钥”页面找到属于当前账户的个人密钥，在“模型中心”查看当前可用模型 ID 与倍率。支持的模型随上游变化，请以会员中心的实时列表为准。</p><p>Windows 用户可从会员中心下载针对当前账户的配置脚本，核对下载来源后运行，并按提示重启 WorkBuddy。不要使用他人的脚本，也不要在公开页面提交自己的密钥。</p></section>
+<section id="install"><h2>自定义模型接入步骤</h2><ol class="steps"><li><div>打开<a href="/">会员中心</a>左侧“WorkBuddy”配置教程，核对自己的客户端版本。</div></li><li><div>使用页面提供的接口地址、个人 API Key 与“模型中心”列出的准确模型 ID；不要选用客户端同名的内置模型。</div></li><li><div>按图文教程保存并重启 WorkBuddy，模型菜单选择刚添加的自定义模型，发送简短问题测试。</div></li><li><div>返回会员中心的“使用记录”检查调用、token 用量及实际消耗，核对控制台余额。</div></li></ol><div class="note"><p>配置过程中的模型连通性测试也可能发起实际请求，并产生少量积分消耗。</p></div></section>
+<section id="verify"><h2>积分不足与接口错误怎么排查？</h2><h3>为什么提示 WorkBuddy 官方账户积分不足？</h3><p>先看模型菜单：首字母大写的 Auto 通常是客户端内置模型，本站自定义模型 ID 必须与会员中心一致。两套积分余额互不相通。</p><h3>401、403、504 分别是什么意思？</h3><ul><li>401：检查 API Key、接口地址与模型 ID。</li><li>403：检查本站账户余额、套餐状态及模型是否可用。</li><li>504：请求可能超时，稍后重试，并在使用记录中确认是否产生调用。</li></ul></section>
+<section id="cost"><h2>积分和 token 用量在哪里看？</h2><p>登录后在控制台查看余额，在“使用记录”核对每次调用的输入、输出与消耗。本站按上游实际返回积分 1:1 记录，不按聊天次数固定扣费；展示的模型倍率不会再次乘到实际消耗上。详情见<a href="/guide/workbuddy-credits/">WorkBuddy 积分购买与消耗指南</a>。</p><p>本站是独立的自定义模型接入服务，不是 WorkBuddy 官方直营充值渠道。</p></section>
+<div class="related"><a href="/guide/workbuddy-credits/">了解积分购买和价格 →</a><a href="/">登录查看完整图文教程 →</a></div></article></div></main>
+<footer>WorkBuddy 积分兑换服务 · 独立第三方服务 <a href="/terms">用户协议</a><a href="/privacy">隐私政策</a></footer>
+</body></html>

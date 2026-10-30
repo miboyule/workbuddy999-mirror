@@ -1,0 +1,39 @@
+{
+  "images": [],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\nCodeBuddy 配置\n把 API Key 填入 CodeBuddy（IDE / CLI）\n国内版 CodeBuddy（腾讯云）\n国际版 CodeBuddy\n\n配置目录：~/.codebuddy/models.json —— 按你本地安装的版本选择，选错模型不会出现。\n\nmacOS 一键配置\nWindows 一键配置\n手动配置\n🤖 AI 代配置\n1\n创建 / 打开配置文件（国际版）\n\n用任意文本编辑器创建或打开（路径不存在则新建）：\n\n~/.codebuddy/models.json\n\nWindows 路径：%USERPROFILE%\\.codebuddy\\models.json\n\n2\n粘贴以下内容并保存\n\n已列出全部 11 个在售模型（url 与 apiKey 已填入实际值，supportsImages 按各模型能力设置）。\n\n复制\n{\n  \"models\": [\n    {\n      \"id\": \"auto\",\n      \"name\": \"auto\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 200000,\n      \"maxOutputTokens\": 65536\n    },\n    {\n      \"id\": \"glm-5.3\",\n      \"name\": \"glm-5.3\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": false,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 131072\n    },\n    {\n      \"id\": \"glm-5.3-flash\",\n      \"name\": \"glm-5.3-flash\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 131072\n    },\n    {\n      \"id\": \"deepseek-v4.1-flash\",\n      \"name\": \"deepseek-v4.1-flash\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 393216\n    },\n    {\n      \"id\": \"deepseek-v4-pro\",\n      \"name\": \"deepseek-v4-pro\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": false,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 393216\n    },\n    {\n      \"id\": \"minimax-m3\",\n      \"name\": \"minimax-m3\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 131072\n    },\n    {\n      \"id\": \"minimax-m3.1-flash\",\n      \"name\": \"minimax-m3.1-flash\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 131072\n    },\n    {\n      \"id\": \"qwen3.8-flash\",\n      \"name\": \"qwen3.8-flash\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 262144,\n      \"maxOutputTokens\": 65536\n    },\n    {\n      \"id\": \"mimo-v2.6-pro\",\n      \"name\": \"mimo-v2.6-pro\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 131072\n    },\n    {\n      \"id\": \"mimo-v2.6-flash\",\n      \"name\": \"mimo-v2.6-flash\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 131072\n    },\n    {\n      \"id\": \"step-5-preview\",\n      \"name\": \"step-5-preview\",\n      \"vendor\": \"Custom\",\n      \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\",\n      \"apiKey\": \"[ACCOUNT_API_KEY]\",\n      \"supportsToolCall\": true,\n      \"supportsImages\": true,\n      \"supportsReasoning\": false,\n      \"maxInputTokens\": 1048576,\n      \"maxOutputTokens\": 65536\n    }\n  ]\n}\n\n如需精简，删除 models 数组中不需要的对象即可；保存后约 1 秒热重载。\n\n3\n开始使用\n\n保存后约 1 秒热重载；打开 CodeBuddy，在模型下拉框选择任一自定义模型即可。若未显示请重启 CodeBuddy 面板。",
+  "videos": []
+}

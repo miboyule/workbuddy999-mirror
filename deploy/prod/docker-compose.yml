@@ -1,0 +1,83 @@
+services:
+  wb-new-api:
+    image: ${WB_NEW_API_IMAGE:-workbuddy-newapi:credit-20261027}
+    build:
+      context: .
+      dockerfile: Dockerfile.credit
+    container_name: wb-new-api
+    restart: always
+    command: --log-dir /app/logs
+    environment:
+      SQL_DSN: postgresql://wbuser:${WB_DB_PASSWORD_URL}@wb-postgres:5432/new-api
+      REDIS_CONN_STRING: redis://:${WB_REDIS_PASSWORD}@wb-redis:6379
+      TZ: Asia/Shanghai
+      ERROR_LOG_ENABLED: "true"
+      BATCH_UPDATE_ENABLED: "true"
+      NODE_NAME: workbuddy-new-api
+      SESSION_SECRET: ${WB_SESSION_SECRET}
+      SESSION_COOKIE_SECURE: "true"
+      SESSION_COOKIE_TRUSTED_URL: https://yeradminer.workbuddy999.top,https://api.workbuddy999.top
+    volumes:
+      - wb_new_api_data:/data
+      - wb_new_api_logs:/app/logs
+    ports: ["127.0.0.1:3002:3000"]
+    depends_on: [wb-postgres, wb-redis]
+    networks: [workbuddy]
+  wb-postgres:
+    image: postgres:15
+    container_name: wb-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: wbuser
+      POSTGRES_PASSWORD: ${WB_DB_PASSWORD}
+      POSTGRES_DB: new-api
+    volumes: ["wb_postgres_data:/var/lib/postgresql/data"]
+    networks: [workbuddy]
+  wb-redis:
+    image: redis:7-alpine
+    container_name: wb-redis
+    restart: always
+    command: ["redis-server","--requirepass","${WB_REDIS_PASSWORD}"]
+    volumes: ["wb_redis_data:/data"]
+    networks: [workbuddy]
+  wb-bff:
+    build:
+      context: .
+      dockerfile: Dockerfile.bff
+    container_name: wb-bff
+    restart: always
+    env_file: ${WB_ENV_FILE:-.env}
+    environment:
+      NEW_API_URL: http://wb-new-api:3000
+      PORTAL_DATABASE_URL: postgresql://wbuser:${WB_DB_PASSWORD_URL}@wb-postgres:5432/new-api
+      PORT: 8787
+      PORTAL_PUBLIC_URL: https://www.workbuddy999.top
+      PORTAL_ORIGINS: https://www.workbuddy999.top,https://api.workbuddy999.top
+      ONECLICK_ENABLED: "1"
+      ONECLICK_PUBLIC_BASE_URL: https://www.workbuddy999.top
+      ONECLICK_CUSTOMERS_FILE: /tmp/workbuddy-oneclick-customers.json
+    depends_on: [wb-new-api, wb-postgres]
+    volumes:
+      - ./public:/app/public
+      - ./data:/app/data
+      - ./backups:/app/backups
+    ports: ["127.0.0.1:8787:8787"]
+    networks: [workbuddy]
+  wb-web:
+    image: nginx:alpine
+    container_name: wb-web
+    restart: always
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+      - ./public:/srv/public:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports: ["127.0.0.1:8088:80"]
+    networks: [workbuddy]
+volumes:
+  wb_new_api_data:
+  wb_new_api_logs:
+  wb_postgres_data:
+  wb_redis_data:
+networks:
+  workbuddy:
+

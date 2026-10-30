@@ -1,0 +1,39 @@
+{
+  "images": [],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\nCodeBuddy 配置\n把 API Key 填入 CodeBuddy（IDE / CLI）\n国内版 CodeBuddy（腾讯云）\n国际版 CodeBuddy\n\n配置目录：~/.codebuddy/models.json —— 按你本地安装的版本选择，选错模型不会出现。\n\nmacOS 一键配置\nWindows 一键配置\n手动配置\n🤖 AI 代配置\n🤖\n把这段提示词发给你的 AI agent\n\n正在用 Claude Code、Cursor 等 AI 编程助手？把下面这段发给它，它会自动完成上面的配置——无需手敲命令，也不用响应任何输入提示。\n\n复制\n你是 CodeBuddy 配置助手。请帮我配置 CodeBuddy 的自定义模型，全程由你判断系统与版本、执行命令、读写文件完成，不要让我手动操作，也不要让我响应任何输入提示。\n\n先判断两点：\n- 操作系统：macOS / Linux 用 curl；Windows 用 PowerShell（Invoke-RestMethod / Invoke-WebRequest）。\n- CodeBuddy 版本：国内版（腾讯云）配置目录 ~/.codebuddycn，国际版 ~/.codebuddy。看哪个目录已存在就以它为准；都不存在则默认国内版（~/.codebuddycn）。\n\n已知信息：\n- 接口地址（Base URL）：https://api.buddy.miaotui.cc/v1\n- 我的 API Key：[ACCOUNT_API_KEY]\n\n步骤：\n1. 拉取模型列表：请求 https://api.buddy.miaotui.cc/v1/models ，带请求头 Authorization: Bearer [ACCOUNT_API_KEY]。返回是 OpenAI 格式 { \"data\": [ { \"id\": \"模型名\" }, ... ] }。\n2. 模型 id 去空、大小写不敏感去重即可（可用模型已由服务端白名单限定，/v1/models 只返回我可用的模型，无需再排除任何模型）。\n3. 读取模型能力配置：请求 https://workbuddy.miaotui.cc/setup/model-capabilities.txt ，每行格式为 模型id|图片输入|最大输入|最大输出（例如 minimax-m3|true|1048576|131072），决定该模型的 supportsImages、maxInputTokens 与 maxOutputTokens；文件读不到或某模型未列出时，图片输入按 false，最大输入与最大输出分别按 200000 与 65536。\n4. 为每个模型生成一个对象，字段：{ \"id\": \"模型id\", \"name\": \"模型id\", \"vendor\": \"Custom\", \"url\": \"https://api.buddy.miaotui.cc/v1/chat/completions\", \"apiKey\": \"[ACCOUNT_API_KEY]\", \"supportsToolCall\": true, \"supportsImages\": true或false, \"supportsReasoning\": false, \"maxInputTokens\": 按第3步查到的值, \"maxOutputTokens\": 按第3步查到的值 }，其中 url 固定为 https://api.buddy.miaotui.cc/v1/chat/completions（CodeBuddy 要求以 /chat/completions 结尾）。\n5. 配置文件 <配置目录>/models.json 的根结构是对象 { \"models\": [...] }。如果已存在：先把原文件备份成带时间戳的 .backup 文件再读取；保留原有模型，新模型按 id 合并（同 id 用新配置覆盖），原有不冲突模型保留，全新模型追加到 models 数组；若原文件不是合法 JSON，停下并告诉我，不要覆盖。\n6. 写回配置文件。macOS/Linux 设目录权限 700、文件权限 600；Windows 无需特殊权限设置。\n7. 完成后告诉我：当前系统、CodeBuddy 版本（国内版 / 国际版）、配置文件路径、写入了哪些模型、备份文件路径（如有），并提示我打开 CodeBuddy 在模型下拉框选择自定义模型（约 1 秒热重载；若未显示请重启 CodeBuddy 面板）。\n\n提示词已带上你的 API Key 和接口地址，复制后直接粘贴给 AI agent 即可。它会自动识别系统与 CodeBuddy 版本（国内版 / 国际版）并写入对应配置目录。",
+  "videos": []
+}

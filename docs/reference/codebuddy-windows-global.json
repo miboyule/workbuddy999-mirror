@@ -1,0 +1,43 @@
+{
+  "images": [],
+  "links": [
+    {
+      "text": "控制台",
+      "url": "https://workbuddy.miaotui.cc/console"
+    },
+    {
+      "text": "WorkBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/workbuddy"
+    },
+    {
+      "text": "CodeBuddy",
+      "url": "https://workbuddy.miaotui.cc/console/codebuddy"
+    },
+    {
+      "text": "TraeWork",
+      "url": "https://workbuddy.miaotui.cc/console/traework"
+    },
+    {
+      "text": "扣子",
+      "url": "https://workbuddy.miaotui.cc/console/coze"
+    },
+    {
+      "text": "常见问题",
+      "url": "https://workbuddy.miaotui.cc/console/faq"
+    },
+    {
+      "text": "兑换记录",
+      "url": "https://workbuddy.miaotui.cc/console/redeems"
+    },
+    {
+      "text": "使用记录",
+      "url": "https://workbuddy.miaotui.cc/console/usage"
+    },
+    {
+      "text": "下载 codebuddy-windows.cmd",
+      "url": "https://workbuddy.miaotui.cc/setup/channel/codebuddy-windows.cmd"
+    }
+  ],
+  "text": "W\nWorkBuddy 积分服务\n积分余额\n45\n控制台\nWorkBuddy\nCodeBuddy\nTraeWork\n扣子\n常见问题\n记录\n兑换记录\n使用记录\n客服微信\nmaotai99688\n复制\n绑定微信\n绑定后可微信扫码登录\n退出登录\nCodeBuddy 配置\n把 API Key 填入 CodeBuddy（IDE / CLI）\n国内版 CodeBuddy（腾讯云）\n国际版 CodeBuddy\n\n配置目录：~/.codebuddy/models.json —— 按你本地安装的版本选择，选错模型不会出现。\n\nmacOS 一键配置\nWindows 一键配置\n手动配置\n🤖 AI 代配置\n1\n下载配置工具\n\n下载 codebuddy-windows.cmd\n\n2\n运行并粘贴 Key（国际版）\n\n双击运行 codebuddy-windows.cmd，按提示粘贴 API Key：\n\n[ACCOUNT_API_KEY]\n复制\n\n配置将写入 ~/.codebuddy/models.json。注意：双击运行不会继承另开窗口里的 set，国内版务必用上面的命令在同一窗口运行。若浏览器把脚本存到了其他位置（或文件名带 (1)），请把命令里的路径改成实际保存位置。\n\n3\n开始使用\n\n打开 CodeBuddy，在模型下拉框选择自定义模型开始对话。",
+  "videos": []
+}
