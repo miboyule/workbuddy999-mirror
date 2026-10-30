@@ -63,7 +63,7 @@ if [[ ! -x new-api-credit ]]; then
     [[ -n "$url" ]] || die "release ${RELEASE} 中找不到 ${asset}"
     curl -fL -H "Authorization: Bearer ${GITHUB_TOKEN}" -o new-api-credit "$url"
   else
-    die "缺少定制网关。请 gh auth login，或设置 GITHUB_TOKEN，或手工放置 ${ROOT}/new-api-credit"
+    curl -fL --retry 3 -o new-api-credit "https://github.com/${REPO}/releases/download/${RELEASE}/${asset}"
   fi
   chmod 755 new-api-credit
 fi

@@ -19,16 +19,15 @@ npm run dev
 
 域名配置目标：`www.workbuddy999.top`。
 
-## 私有镜像部署
+## 镜像部署
 
-本仓库同时包含前台、BFF、一键配置助手、定制 NewAPI 网关的构建入口，以及 `yeradminer.workbuddy999.top` 对应的后台容器编排。源码仓库不提交 `.env`、兑换码、数据库备份和 136 MB 的网关二进制；网关二进制作为 GitHub 私有 Release 资产发布，安装脚本会在服务器上下载。
+本仓库同时包含前台、BFF、一键配置助手、定制 NewAPI 网关的构建入口，以及 `yeradminer.workbuddy999.top` 对应的后台容器编排。源码仓库不提交 `.env`、兑换码、数据库备份和 136 MB 的网关二进制；网关二进制作为 GitHub Release 资产发布，安装脚本会在服务器上下载。
 
-在新服务器上先完成 Docker、GitHub CLI 登录，再执行：
+在新服务器上安装 Docker、Git 和 curl 后执行：
 
 ```bash
-gh auth login
-gh repo clone miboyule/workbuddy999-mirror /opt/workbuddy-prod
-cd /opt/workbuddy-prod
+git clone https://github.com/miboyule/workbuddy999-mirror.git ~/workbuddy999-mirror
+cd ~/workbuddy999-mirror
 sudo ./install.sh
 ```
 
