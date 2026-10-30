@@ -26,6 +26,12 @@ npm run dev
 在新服务器上安装 Docker、Git 和 curl 后执行：
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/miboyule/workbuddy999-mirror/main/bootstrap.sh | sudo bash
+```
+
+也可以分步执行：
+
+```bash
 git clone https://github.com/miboyule/workbuddy999-mirror.git ~/workbuddy999-mirror
 cd ~/workbuddy999-mirror
 sudo ./install.sh
