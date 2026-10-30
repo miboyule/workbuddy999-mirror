@@ -52,6 +52,9 @@ EOF
 fi
 if [[ ! -x new-api-credit ]]; then
   asset="new-api-credit-linux-amd64"
+  if [[ -n "${SUDO_USER:-}" && -d "/home/${SUDO_USER}/.config/gh" ]]; then
+    export GH_CONFIG_DIR="/home/${SUDO_USER}/.config/gh"
+  fi
   if command -v gh >/dev/null 2>&1 && gh auth status >/dev/null 2>&1; then
     gh release download "$RELEASE" --repo "$REPO" --pattern "$asset" --clobber --output new-api-credit
   elif [[ -n "${GITHUB_TOKEN:-}" ]]; then
