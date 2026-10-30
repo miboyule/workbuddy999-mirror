@@ -64,7 +64,7 @@ if [[ ! -x new-api-credit ]]; then
   fi
   chmod 755 new-api-credit
 fi
-if [[ ! -d node_modules ]]; then npm ci --omit=dev; fi
+if [[ ! -d node_modules ]]; then npm ci; fi
 npm run build
 docker compose --env-file .env config --quiet
 docker compose --env-file .env up -d wb-postgres wb-redis
