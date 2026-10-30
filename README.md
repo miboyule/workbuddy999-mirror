@@ -23,7 +23,7 @@ npm run dev
 
 本仓库同时包含前台、BFF、一键配置助手、定制 NewAPI 网关的构建入口，以及 `yeradminer.workbuddy999.top` 对应的后台容器编排。源码仓库不提交 `.env`、兑换码、数据库备份和 136 MB 的网关二进制；网关二进制作为 GitHub Release 资产发布，安装脚本会在服务器上下载。
 
-在新服务器上安装 Docker、Git 和 curl 后执行：
+在新服务器上安装 Docker、Git、curl、OpenSSL 和 tar 后执行：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/miboyule/workbuddy999-mirror/main/bootstrap.sh | sudo bash

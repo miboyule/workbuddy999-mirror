@@ -67,8 +67,12 @@ if [[ ! -x new-api-credit ]]; then
   fi
   chmod 755 new-api-credit
 fi
-if [[ ! -d node_modules ]]; then npm ci; fi
-npm run build
+if command -v npm >/dev/null 2>&1; then
+  if [[ ! -d node_modules ]]; then npm ci; fi
+  npm run build
+else
+  docker run --rm -v "$ROOT:/app" -w /app node:22-alpine sh -lc 'npm ci && npm run build'
+fi
 docker compose --env-file .env config --quiet
 docker compose --env-file .env up -d wb-postgres wb-redis
 ready=0
